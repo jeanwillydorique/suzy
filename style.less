@@ -1,0 +1,858 @@
+/* variables */
+
+    /* mensurations */
+
+    @fullwidth: 100vw;
+    @fullheight: 100vh;
+    @autowidth : auto;
+    @autoheight :auto;
+    @all : 100%;
+
+    /* color */ 
+
+        /* yellow */
+        @crayola : #FF9F1C;
+        @paleyellow : #F3FFBD;
+
+        /* red */
+        @tractorred : #F71735;
+        @awesone : #FF1654;
+        @desirered : #E63946;
+        @applered : #D90429;
+
+        /* green */ 
+        @malachite : #20BF55;
+        @palegreen : #B2DBBF;
+
+        /* purple */ 
+        @indogo : #540D6E;
+
+        /* orange */
+        @orangesoda : #F95738;
+        @apricot : #FFCDB2;
+        @fluoorange : #FFBF00;
+        
+        /* pink */
+        @bubblegum : #FFCAD4;
+        @lightpink : #E5989B;
+        @paradisepink : #E83F6F;
+
+        /* blue */ 
+        @yankeesblue : #1C2541;
+        @paleblue : #247BA0;
+        @lightblue : #A8DADC;
+        @grayblue : #8D99AE;
+        @neonblue : #6FFFE9;
+        @bluejean : #5BC0EB;
+
+        /* black */
+        @black : #000000;
+        @lightdark : #50514F;
+        @erryblack : #1B1B1E;
+
+        /* white */
+        @white : #FFFFFF;
+        @lightgray : #F1FAEE;
+        @platinum : #E5E5E5;
+
+
+    /* border */
+
+        .blackborder{
+            border : 1px solid @black;
+        }
+
+
+/* multiples variables */
+
+    .withoutpaddingandmargin {
+        margin: 0;
+        padding: 0;
+    }
+
+
+/* colors */
+
+    /* yellow */
+
+    .color-crayola{
+        background-color: @crayola;
+    }
+    .color-paleyellow{
+        background-color: @paleyellow;
+    }
+
+    /* red */
+    .color-tractorred{
+        background-color: @tractorred;
+    }
+    .color-awesome{
+        background-color: @awesone;
+    }
+    .color-desirered{
+        background-color: @desirered;
+    }
+    .color-applered{
+        background-color: @applered;
+    }
+
+    /* green */ 
+    .color-malachite{
+        background-color: @malachite;
+    }
+    .color-palegreen{
+        background-color: @palegreen;
+    }
+
+    /* purple */ 
+    .color-indogo{
+        background-color: @indogo;
+    }
+
+    /* orange */    
+    .color-orangesoda{
+        background-color: @orangesoda;
+    }
+    .color-apricot{
+        background-color: @apricot;
+    }
+    .color-fluoorange{
+        background-color: @fluoorange;
+    }
+    
+    /* pink */
+    .color-bubblegum{
+        background-color: @bubblegum;
+    }
+    .color-lightpink{
+        background-color: @lightpink;
+    }
+    .color-paradisepink{
+        background-color: @paradisepink;
+    }
+
+    /* blue */ 
+    .color-yankeesblue{
+        background-color: @yankeesblue;
+    }
+    .color-paleblue{
+        background-color: @paleblue;
+    }
+    .color-lightblue{
+        background-color: @lightblue;
+    }
+    .color-grayblue{
+        background-color: @grayblue;
+    }
+    .color-neonblue{
+        background-color: @lightblue;
+    }
+    .color-bluejean{
+        background-color: @bluejean;
+    }
+
+    /* black */
+    .color-black{
+        background-color: @black;
+    }
+    .color-lightdark{
+        background-color: @lightdark;
+    }
+    .color-erryblack{
+        background-color: @erryblack;
+    }
+
+    /* white */
+    .color-white{
+        background-color: @white;
+    }
+    .color-lightgray{
+        background-color: @lightgray;
+    }
+    .color-platinum{
+        background-color: @platinum;
+    }
+
+/* colors hover */
+
+    /* yellow */
+
+    .color-crayolahover:hover{
+        background-color: @crayola;
+    }
+    .color-paleyellowhover:hover{
+        background-color: @paleyellow;
+    }
+
+    /* red */
+    .color-tractorredhover:hover{
+        background-color: @tractorred;
+    }
+    .color-awesome:hover{
+        background-color: @awesone;
+    }
+    .color-desireredhover:hover{
+        background-color: @desirered;
+    }
+    .color-appleredhover:hover{
+        background-color: @applered;
+    }
+
+    /* green */ 
+    .color-malachitehover:hover{
+        background-color: @malachite;
+    }
+    .color-palegreenhover:hover{
+        background-color: @palegreen;
+    }
+
+    /* purple */ 
+    .color-indogohover:hover{
+        background-color: @indogo;
+    }
+
+    /* orange */    
+    .color-orangesodahover:hover{
+        background-color: @orangesoda;
+    }
+    .color-apricothover:hover{
+        background-color: @apricot;
+    }
+    .color-fluoorangehover:hover{
+        background-color: @fluoorange;
+    }
+
+    /* pink */
+    .color-bubblegumhover:hover{
+        background-color: @bubblegum;
+    }
+    .color-lightpinkhover:hover{
+        background-color: @lightpink;
+    }
+    .color-paradisepinkhover:hover{
+        background-color: @paradisepink;
+    }
+
+    /* blue */ 
+    .color-yankeesbluehover:hover{
+        background-color: @yankeesblue;
+    }
+    .color-palebluehover:hover{
+        background-color: @paleblue;
+    }
+    .color-lightbluehover:hover{
+        background-color: @lightblue;
+    }
+    .color-graybluehover:hover{
+        background-color: @grayblue;
+    }
+    .color-neonbluehover:hover{
+        background-color: @lightblue;
+    }
+    .color-bluejeanhover:hover{
+        background-color: @bluejean;
+    }
+
+    /* black */
+    .color-blackhover:hover{
+        background-color: @black;
+    }
+    .color-lightdarkhover:hover{
+        background-color: @lightdark;
+    }
+    .color-erryblackhover:hover{
+        background-color: @erryblack;
+    }
+
+    /* white */
+    .color-whitehover:hover{
+        background-color: @white;
+    }
+    .color-lightgrayhover:hover{
+        background-color: @lightgray;
+    }
+    .color-platinumhover:hover{
+        background-color: @platinum;
+    }
+
+/* text color */
+
+   /* yellow */
+
+    .textcolor-crayola{
+        color: @crayola;
+    }
+    .textcolor-paleyellow{
+        color: @paleyellow;
+    }
+
+    /* red */
+    .textcolor-tractorred{
+        color: @tractorred;
+    }
+    .textcolor-awesome{
+        color: @awesone;
+    }
+    .textcolor-desirered{
+        color: @desirered;
+    }
+    .textcolor-applered{
+        color: @applered;
+    }
+
+    /* green */ 
+    .textcolor-malachite{
+        color: @malachite;
+    }
+    .textcolor-palegreen{
+        color: @palegreen;
+    }
+
+    /* purple */ 
+    .textcolor-indogo{
+        color: @indogo;
+    }
+
+    /* orange */    
+    .textcolor-orangesoda{
+        color: @orangesoda;
+    }
+    .textcolor-apricot{
+        color: @apricot;
+    }
+    .textcolor-fluoorange{
+        color: @fluoorange;
+    }
+
+    /* pink */
+    .textcolor-bubblegum{
+       color: @bubblegum;
+    }
+    .textcolor-lightpink{
+       color: @lightpink;
+    }
+    .textcolor-paradisepink{
+        color: @paradisepink;
+    }
+
+    /* blue */ 
+    .textcolor-yankeesblue{
+        color: @yankeesblue;
+    }
+    .textcolor-paleblue{
+        color: @paleblue;
+    }
+    .textcolor-lightblue{
+        color: @lightblue;
+    }
+    .textcolor-grayblue{
+        color: @grayblue;
+    }
+    .textcolor-neonblue{
+        color: @lightblue;
+    }
+    .textcolor-bluejean{
+        color: @bluejean;
+    }
+
+    /* black */
+    .textcolor-black{
+        color: @black;
+    }
+    .textcolor-lightdark{
+        color: @lightdark;
+    }
+    .textcolor-erryblack{
+        color: @erryblack;
+    }
+
+    /* white */
+    .textcolor-white{
+        color: @white;
+    }
+    .textcolor-lightgray{
+        color: @lightgray;
+    }
+    .textcolor-platinum{
+        color: @platinum;
+    }
+
+/* text hover color */
+
+    /* yellow */
+
+    .textcolor-crayolahover:hover{
+        color: @crayola;
+    }
+    .textcolor-paleyellowhover:hover{
+        color: @paleyellow;
+    }
+
+    /* red */
+    .textcolor-tractorredhover:hover{
+        color: @tractorred;
+    }
+    .textcolor-awesomehover:hover{
+        color: @awesone;
+    }
+    .textcolor-desireredhover:hover{
+        color: @desirered;
+    }
+    .textcolor-appleredhover:hover{
+        color: @applered;
+    }
+
+    /* green */ 
+    .textcolor-malachitehover:hover{
+        color: @malachite;
+    }
+    .textcolor-palegreenhover:hover{
+        color: @palegreen;
+    }
+
+    /* purple */ 
+    .textcolor-indogohover:hover{
+        color: @indogo;
+    }
+
+    /* orange */    
+    .textcolor-orangesodahover:hover{
+        color: @orangesoda;
+    }
+    .textcolor-apricothover:hover{
+        color: @apricot;
+    }
+    .textcolor-fluoorangehover:hover{
+        color: @fluoorange;
+    }
+
+    /* pink */
+    .textcolor-bubblegumhover:hover{
+       color: @bubblegum;
+    }
+    .textcolor-lightpinkhover:hover{
+       color: @lightpink;
+    }
+    .textcolor-paradisepinkhover:hover{
+        color: @paradisepink;
+    }
+
+    /* blue */ 
+    .textcolor-yankeesbluehover:hover{
+        color: @yankeesblue;
+    }
+    .textcolor-palebluehover:hover{
+        color: @paleblue;
+    }
+    .textcolor-lightbluehover:hover{
+        color: @lightblue;
+    }
+    .textcolor-graybluehover:hover{
+        color: @grayblue;
+    }
+    .textcolor-neonbluehover:hover{
+        color: @lightblue;
+    }
+    .textcolor-bluejeanhover:hover{
+        color: @bluejean;
+    }
+
+    /* black */
+    .textcolor-blackhover:hover{
+        color: @black;
+    }
+    .textcolor-lightdarkhover:hover{
+        color: @lightdark;
+    }
+    .textcolor-erryblackhover:hover{
+        color: @erryblack;
+    }
+
+    /* white */
+    .textcolor-whitehover:hover{
+        color: @white;
+    }
+    .textcolor-lightgrayhover:hover{
+        color: @lightgray;
+    }
+    .textcolor-platinumhover:hover{
+        color: @platinum;
+    }
+
+
+    /* flexbox */
+
+    .displayflex{
+        display: flex;
+    }
+
+    .displayflexfullcenterrow{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .displayflexrow{
+        display: flex;
+        flex-direction: row;
+    }
+    .displayflexcol{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .displayflexfullcentercolums{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .displayflexfullcentercolumsstart{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .displayflexfullcentercolumsend{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .displayflexnavigation{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .displayflexnavigationstart{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .displayflexnavigationend{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+
+/* class */ 
+
+    /* general class */ 
+
+    body{
+        height: @fullheight;
+        width: @fullwidth;
+        .withoutpaddingandmargin();
+    }
+
+    .containercol{
+        height: @fullheight;
+        width: @fullwidth;
+        overflow: hidden;
+        .displayflexfullcentercolums();
+    }
+    .containercol-2{
+        height: 50%;
+        width: 50%;
+        overflow: hidden;
+        .displayflexfullcentercolums();
+    }
+    .containercol-4{
+        height: 25%;
+        width: 25%;
+        overflow: hidden;
+        .displayflexfullcentercolums();
+    }
+
+    .container{
+        height: @fullheight;
+        width: @fullwidth;
+        overflow: hidden;
+        .displayflexfullcenterrow();
+    }
+
+    .container-2{
+        height: 50%;
+        width: 50%;
+        overflow: hidden;
+        .displayflexfullcenterrow();
+    }
+
+    .container-4{
+        height: 25%;
+        width: 25%;
+        overflow: hidden;
+        .displayflexfullcenterrow();
+    }
+
+    /* GRID */ 
+
+    /* line */ 
+
+    .row {
+        height: @autoheight;
+        width: @autowidth;
+        .withoutpaddingandmargin();
+        .displayflexrow();
+        overflow: hidden;
+    }
+
+
+    /* columns */ 
+
+    .col {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        .withoutpaddingandmargin();
+    }
+
+    .col-2 {
+        height: 100%;
+        width: 2 * @all;
+        overflow: hidden;
+        .withoutpaddingandmargin();
+    }
+
+    .col-4 {
+        height: 100%;
+        width: 4 * @all;
+        overflow: hidden;
+        .withoutpaddingandmargin();
+    }
+
+    .col-8 {
+        height: 100%;
+        width: 8 * @all;
+        overflow: hidden;
+        .withoutpaddingandmargin();
+    }
+
+
+
+    /* button */ 
+
+    .button {
+        border: none;
+        padding: 1%;
+        text-align: center;
+        text-decoration: none;
+        /*border-radius: 16px;*/
+    }
+
+    .buttonrounder {
+        border: none;
+        padding: 1%;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 16px;
+    }
+
+    .button:focus{
+        outline: none;
+    }
+
+
+
+    /* navigation */ 
+
+    .navbar-center{
+        list-style-type: none;
+        overflow: hidden;
+        .withoutpaddingandmargin();
+        .displayflexnavigation();
+        li{
+            height: 100%;
+            width: 10%;
+            .displayflexfullcenterrow();
+            float: left;
+            a{
+            height: 100%;
+            width: 100%;
+            .displayflexfullcentercolums();
+            text-decoration: none;
+            }
+        }
+    }
+
+    .navbar-center-withlogo{
+        list-style-type: none;
+        overflow: hidden;
+        .withoutpaddingandmargin();
+        .displayflexnavigation();
+        li{
+            height: 100%;
+            width: 10%;
+            .displayflexfullcenterrow();
+            float: left;
+            a{
+            height: 100%;
+            width: 100%;
+            .displayflexfullcentercolums();
+            text-decoration: none;
+            img{
+                height: 100%;
+                width: 100%;
+                }
+            }
+            img{
+            height: 100%;
+            width: 100%;
+            }
+        }
+    }
+       
+
+    .navbar-right{
+        list-style-type: none;
+        overflow: hidden;
+        .withoutpaddingandmargin();
+        .displayflexnavigationend();
+        li{
+            height: 100%;
+            width: 10%;
+            .displayflexfullcenterrow();
+            float: left;
+            a{
+            height: 100%;
+            width: 100%;
+            .displayflexfullcentercolums();
+            text-decoration: none;
+            }
+        }
+    }
+    .navbar-right-withlogo{
+        list-style-type: none;
+        overflow: hidden;
+        .withoutpaddingandmargin();
+        .displayflexnavigationend();
+        li{
+            height: 100%;
+            width: 10%;
+            .displayflexfullcenterrow();
+            float: left;
+            a{
+            height: 100%;
+            width: 100%;
+            .displayflexfullcentercolums();
+            text-decoration: none;
+            img{
+                height: 100%;
+                width: 100%;
+                }
+            }
+            img{
+                height: 100%;
+                width: 100%;
+                }
+        }
+    }
+
+    .navbar-left{
+        list-style-type: none;
+        overflow: hidden;
+        .withoutpaddingandmargin();
+        .displayflexnavigationstart();
+        li{
+            height: 100%;
+            width: 10%;
+            .displayflexfullcenterrow();
+            float: left;
+            a{
+            height: 100%;
+            width: 100%;
+            .displayflexfullcentercolums();
+            text-decoration: none;
+            }
+        }
+    }
+
+    .navbar-left-withlogo{
+        list-style-type: none;
+        overflow: hidden;
+        .withoutpaddingandmargin();
+        .displayflexnavigationstart();
+        li{
+            height: 100%;
+            width: 10%;
+            .displayflexfullcenterrow();
+            float: left;
+            a{
+            height: 100%;
+            width: 100%;
+            .displayflexfullcentercolums();
+            text-decoration: none;
+            img{
+                height: 100%;
+                width: 100%;
+                }
+            }
+            img{
+                height: 100%;
+                width: 100%;
+                }
+            
+        }
+    }
+
+    .navbar-vertical-center{
+        list-style-type: none;
+        overflow: hidden;
+        .withoutpaddingandmargin();
+        .displayflexfullcentercolums();
+        li{
+            height: 5%;
+            width: 100%;
+            .displayflexfullcenterrow();
+            float: left;
+            a{
+            height: 100%;
+            width: 100%;
+            .displayflexfullcentercolums();
+            text-decoration: none;
+            }
+        }
+    }
+
+    .navbar-vertical-start{
+        list-style-type: none;
+        overflow: hidden;
+        .withoutpaddingandmargin();
+        .displayflexfullcentercolumsstart();
+        li{
+            height: 5%;
+            width: 100%;
+            .displayflexfullcenterrow();
+            float: left;
+            a{
+            height: 100%;
+            width: 100%;
+            .displayflexfullcentercolums();
+            text-decoration: none;
+            }
+        }
+    }
+
+    .navbar-vertical-end{
+        list-style-type: none;
+        overflow: hidden;
+        .withoutpaddingandmargin();
+        .displayflexfullcentercolumsend();
+        li{
+            height: 5%;
+            width: 100%;
+            .displayflexfullcenterrow();
+            float: left;
+            a{
+            height: 100%;
+            width: 100%;
+            .displayflexfullcentercolums();
+            text-decoration: none;
+            }
+        }
+    }

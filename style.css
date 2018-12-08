@@ -1,0 +1,58 @@
+
+
+.row{
+    height: 30%;
+    width: 80%;
+}
+
+.button:hover{
+    background-color: black;
+}
+
+.container{
+    height: 20%;
+    width: 40%
+}
+
+.navbar-left{
+    height: 10%;
+    width: 100%
+}
+
+.navbar-right{
+    height: 10%;
+    width: 100%
+}
+
+.navbar-center{
+    height: 10%;
+    width: 100%
+}
+
+.navbar-left-withlogo{
+    height: 10%;
+    width: 100%
+}
+
+.navbar-right-withlogo{
+    height: 10%;
+    width: 100%
+}
+
+.navbar-center-withlogo{
+    height: 10%;
+    width: 100%
+}
+
+.navbar-vertical-center{
+    height: 100%;
+    width: 15%;
+}
+.navbar-vertical-start{
+    height: 100%;
+    width: 15%;
+}
+.navbar-vertical-end{
+    height: 100%;
+    width: 15%;
+}
