@@ -1,58 +1,24 @@
 
 
-.row{
-    height: 30%;
-    width: 80%;
-}
-
-.button:hover{
-    background-color: black;
-}
-
-.container{
-    height: 20%;
-    width: 40%
-}
-
-.navbar-left{
+#navigation{
+    width: 100%;
     height: 10%;
-    width: 100%
 }
 
-.navbar-right{
-    height: 10%;
-    width: 100%
+#image{
+    width: 100%;
+    height: 60%;
 }
 
-.navbar-center{
-    height: 10%;
-    width: 100%
-}
-
-.navbar-left-withlogo{
-    height: 10%;
-    width: 100%
-}
-
-.navbar-right-withlogo{
-    height: 10%;
-    width: 100%
-}
-
-.navbar-center-withlogo{
-    height: 10%;
-    width: 100%
-}
-
-.navbar-vertical-center{
+#main{
+    width: 100%;
     height: 100%;
-    width: 15%;
 }
-.navbar-vertical-start{
-    height: 100%;
-    width: 15%;
+
+.containerfullimg{
+    background-image: url("./Image/image/architecture-2715.jpg");
 }
-.navbar-vertical-end{
-    height: 100%;
-    width: 15%;
+
+.containerfullimg:hover{
+    filter: grayscale(0%);
 }
